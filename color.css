@@ -14,7 +14,118 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* End CSS Resets */
 
+
+/*-----------------------------------------*/
+/* Whole Page */
+/*-----------------------------------------*/
+
+body {
+	font-size: 12px;
+	line-height: 18px;
+	font-family: arial, verdana, sans-serif;
+	text-decoration: none;
+	color: #555555;
+	background-color: #F6F4EA;
+	}
+
 ul
 {
     list-style-type: none;
 }
+
+
+/*-----------------------------------------*/
+/* Default Links */
+/*-----------------------------------------*/
+a:link {
+		color: #776D5E;
+		text-decoration:none;
+		}
+	
+a:visited {
+		color: #776D5E;
+		text-decoration:none;
+		}
+
+a:hover {
+		color: #BED4C8;
+		text-decoration:none;
+		}
+	
+a:active {
+		color: #BED4C8;
+		text-decoration:none;
+		}
+/*-----------------------------------------*/
+
+
+/*-----------------------------------------*/
+/* Div header */
+/*-----------------------------------------*/
+.header {
+		background-color:#BED4C8;
+		}
+.header h1 {
+		font-size: 36px;
+		font-weight:700;
+		line-height: 42px;
+		text-align:center;
+		
+		}
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+/*Div blogpost */
+/*-----------------------------------------*/
+.blogpost h2 {
+		font-size: 16px;
+		font-weight:700;
+		line-height:20px;
+		}
+
+.blogpost h3 {
+		font-style:italic;
+			}
+.blogpost br {
+			line-height:26px;
+			}
+		
+/*-----------------------------------------*/		
+/* Div links */
+/*-----------------------------------------*/
+.links ul li{
+    display: inline;
+	float: right;
+	padding: 2px
+		}
+.links a:link {
+		color: #776D5E;
+		text-decoration:underline;
+		}
+	
+.links a:visited {
+		color: #776D5E;
+		text-decoration:underline;
+		}
+
+.links a:hover {
+		color: #BED4C8;
+		text-decoration:underline;
+		}
+	
+.links a:active {
+		color: #BED4C8;
+		text-decoration:underline;
+		}
+/*-----------------------------------------*/
+
+/*-----------------------------------------*/
+/* Div rightbar */
+/*-----------------------------------------*/
+
+.rightbar {
+		border-style:solid;
+		border-left-color:#BED4C8;
+		border-left-width:2px;
+		
+		}
