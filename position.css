@@ -14,3 +14,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* End CSS Resets */
 
+.maincontainer{
+		margin: 20px auto;
+		padding: 0 1em;
+		max-width: 82.33em;	/* 988px / 12px = 82.33em */
+		}
+
+
+.blogpost{
+    float: left;
+    width: 70.85%;          /* 844px / 988px = 0.85425 */
+	padding-right:14.56%;
+	padding-top:20px;
+	
+}
+.links {
+	float:right;
+	}
+.rightbar{
+    float: right;
+	padding: 5px;
+    width: 12.551%;          /* 124px / 988px = 0.12551 */
+}

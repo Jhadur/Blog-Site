@@ -74,6 +74,7 @@ a:active {
 		}
 /*-----------------------------------------*/
 
+
 /*-----------------------------------------*/
 /*Div blogpost */
 /*-----------------------------------------*/
@@ -89,6 +90,12 @@ a:active {
 .blogpost br {
 			line-height:26px;
 			}
+.blogpost {
+		border-style:solid;
+		border-right-color:#BED4C8;
+		border-right-width:2px;
+		
+		}			
 		
 /*-----------------------------------------*/		
 /* Div links */
@@ -123,9 +130,16 @@ a:active {
 /* Div rightbar */
 /*-----------------------------------------*/
 
-.rightbar {
-		border-style:solid;
-		border-left-color:#BED4C8;
-		border-left-width:2px;
+
+.rightbar h1 {
+		font-size: 14px;
+		font-weight:700;
+		line-height:28px;
+		}
 		
+.rightbar a:link {
+		font-weight:700;
+		}
+.about p {
+		font-style:italic;
 		}
