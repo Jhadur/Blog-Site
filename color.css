@@ -14,3 +14,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* End CSS Resets */
 
+ul
+{
+    list-style-type: none;
+}
