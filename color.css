@@ -103,7 +103,8 @@ a:active {
 .links ul li{
     display: inline;
 	float: right;
-	padding: 2px
+	padding: 3px;
+	font-weight:700;
 		}
 .links a:link {
 		color: #776D5E;
